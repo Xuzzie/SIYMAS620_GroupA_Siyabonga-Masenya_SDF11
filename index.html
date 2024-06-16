@@ -36,7 +36,7 @@
 
 
                         </div>
-                    <button>          <svg
+                    <button class=" p-4 md:hidden" id="mobile-menu-toggle">          <svg
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -64,6 +64,9 @@
                         </defs>
                       </svg>
                     </button>
+                    <script>
+                        document.getElementById("mobile-menu-toggle").addEventListener("click",function() {alert("Hello")})
+                    </script>
                     <div></div>
                     <!--Component one -->
                     <!-- Main container with navigation and header content -->
