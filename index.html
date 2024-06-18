@@ -21,20 +21,16 @@
                             <img class="h-8" src="assets/component-1/navigation/cache-bank-logo.png"> 
                         </div>
                         
-                        <div class=" md:flex items-center justify-between text-black gap-12">
+                        <div class=" hidden md:flex items-center justify-between text-black gap-12">
                             <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href=""> Product</a>
                             <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href=""> Features</a>
                             <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href=""> Get Started </a>
                             <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href=""> Contact </a>
                         </div>
-                        <div class="gap-8 p-4 items-center md:flex"> 
+                        <div class="hidden gap-8 p-4 items-center md:flex"> 
                             <button class="text-sm font-normal text-dark-grey-800 hover:text-dark-grey-900">Log In </button>
                             <button class=" px-4 py-2 text-sm font-bold text-blue-900 bg-green-500 rounded-xl hover:bg-pink-500"> Sign up </button>
-                    
-
-
-
-
+                
                         </div>
                     <button class=" p-4 md:hidden" id="mobile-menu-toggle">          <svg
                         fill="none"
@@ -65,9 +61,30 @@
                       </svg>
                     </button>
                     <script>
-                        document.getElementById("mobile-menu-toggle").addEventListener("click",function() {alert("Hello")})
+                        document.getElementById("mobile-menu-toggle").addEventListener("click",function() {document.getElementById("mobile-menu").classList.toggle("hidden")})
                     </script>
-                    <div></div>
+
+
+
+<!--- mobile  button contents -->
+
+
+                    <div class="absolute md:hidden flex md:flex flex-col items-start justify-center w-full gap-3 bg-white  max-h-screen top-full px-4 py-8 shadow-main" id="mobile-menu" >
+                    
+                            <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href=""> Product</a>
+                            <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href=""> Features</a>
+                            <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href=""> Get Started </a>
+                            <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href=""> Contact </a>
+                     
+                            <button class="text-sm font-normal text-dark-grey-800 hover:text-dark-grey-900">Log In </button>
+                            <button class=" px-4 py-2 text-sm font-bold text-blue-900 bg-green-500 rounded-xl hover:bg-pink-500"> Sign up </button>
+                
+                        </div>
+
+
+
+
+                    </div>
                     <!--Component one -->
                     <!-- Main container with navigation and header content -->
                     </div>
