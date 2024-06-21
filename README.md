@@ -1,5 +1,5 @@
 # README 
-Welcome to the Cache Bank project, a faux bank website tailored for software developers. This project demonstrates a modern, responsive landing page that leverages HTML, CSS, and JavaScript, incorporating popular libraries and frameworks such as Tailwind CSS and Leaflet.
+
 
 # Task Brief 
 
