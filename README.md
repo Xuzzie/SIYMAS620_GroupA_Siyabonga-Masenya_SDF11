@@ -1,12 +1,12 @@
-#README 
+# README 
 Welcome to the Cache Bank project, a faux bank website tailored for software developers. This project demonstrates a modern, responsive landing page that leverages HTML, CSS, and JavaScript, incorporating popular libraries and frameworks such as Tailwind CSS and Leaflet.
 
-#Task Brief 
+# Task Brief 
 
 I created a responsive business landing page for a fictitious banking solution, Cache Bank, targeted  for software developers. This project used HTML, CSS, Tailwind, and JavaScript to build the webpage.
 
 
-#Features
+# Features
 Responsive Design: Ensures a consistent experience on desktops, tablets, and mobile devices.
 Navigation: Includes a well-structured navigation bar with links to Product, Features, Get Started, and Contact sections.
 Hero Section: Features an eye-catching headline, brief description, and call-to-action buttons to engage users.
@@ -16,7 +16,7 @@ Interactive Map: Integrated with Leaflet to display the bank's locations or rele
 Footer: Provides quick links to essential information and social media profiles.
 
 
-#Technologies Used
+# Technologies Used
 HTML: The structure of the webpage.
 CSS: Styling using Tailwind CSS for utility-first design and custom theme styles for branding.
 JavaScript: Adds interactivity, including mobile menu toggling and map functionality.
