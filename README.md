@@ -1,19 +1,24 @@
-# Installation
+#README 
+Welcome to the Cache Bank project, a faux bank website tailored for software developers. This project demonstrates a modern, responsive landing page that leverages HTML, CSS, and JavaScript, incorporating popular libraries and frameworks such as Tailwind CSS and Leaflet.
 
-```
-# Install dependencies
-npm install
+#Task Brief 
 
-# Start the development server with live preview using Browsersync
-npm run browsersync
+I created a responsive business landing page for a fictitious banking solution, Cache Bank, targeted  for software developers. This project used HTML, CSS, Tailwind, and JavaScript to build the webpage.
 
-# Compile Tailwind CSS
-npm run build
 
-# Compile Tailwind CSS minified
-npm run build-minify
+#Features
+Responsive Design: Ensures a consistent experience on desktops, tablets, and mobile devices.
+Navigation: Includes a well-structured navigation bar with links to Product, Features, Get Started, and Contact sections.
+Hero Section: Features an eye-catching headline, brief description, and call-to-action buttons to engage users.
+Endorsements: Displays endorsements from reputed global companies, enhancing credibility.
+Detailed Features Section: Highlights the unique selling points of Cache Bank's services, such as high-yield savings, exclusive investment options, and API integrations for developers.
+Interactive Map: Integrated with Leaflet to display the bank's locations or relevant geographic information.
+Footer: Provides quick links to essential information and social media profiles.
 
-```
 
-# Presentation Talking Points and Presentation Slide Template
-Check out the Project Overview in this GitHub Repo for the guide to talking points for your presentation as well the starter template for your Google Slides here: https://github.com/CodeSpace-Academy/SDF_Portfolio_Piece_StudentNo_Classcode_Group_Name-Surname_SDF11/blob/main/11_portfolio_piece_1.md
+#Technologies Used
+HTML: The structure of the webpage.
+CSS: Styling using Tailwind CSS for utility-first design and custom theme styles for branding.
+JavaScript: Adds interactivity, including mobile menu toggling and map functionality.
+Leaflet: JavaScript library for mobile-friendly interactive maps.
+Google Fonts: Custom fonts for enhanced typography and visual appeal.
